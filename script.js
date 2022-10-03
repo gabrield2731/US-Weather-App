@@ -1,4 +1,4 @@
-const API_KEY = "9bc078eb0381c5c9658ed6088c236bf9";
+const API_KEY = config.MY_API_KEY;
 
 // get weather data from specific city
 async function getWeather(city) {
